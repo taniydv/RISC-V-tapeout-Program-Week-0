@@ -34,6 +34,7 @@ $ make config-gcc
 $ git submodule update --init --recursive
 $ make 
 $ sudo make install
+<img width="803" height="225" alt="Screenshot 2025-09-20 153625" src="https://github.com/user-attachments/assets/292cfaf8-bbda-4567-a7ea-ff87473417b8" />
 
 ### Acknowledgement
 I'm very grateful to the VSD tean for this RISC V Tapeout SOC Program.
