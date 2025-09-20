@@ -5,7 +5,7 @@ In this program, we are designing the RISC-V core. Week 0 deals with the basic d
          i) iverilog
 		 ii) GTKWAVE
 		 iii) Yosys
-###  resizing Ubuntu window 
+###  Resizing Ubuntu window 
 $ sudo apt update
 
 $ sudo apt install build-essential dkms linux-headers-$(uname -r)
@@ -38,11 +38,8 @@ $ cd yosys
 
 $ sudo apt install make    
 
-$ sudo apt-get install build-essential clang bison flex\
-    libreadline-dev gawk tcl-dev libffi-dev git\
-    graphviz xdot pkg-config python3 libboost-system-dev\
-    libboost-python-dev libboost-filesystem-dev zlib1g-dev
-	
+$ sudo apt-get install build-essential clang bison flex \libreadline-dev gawk tcl-dev libffi-dev git \graphviz xdot pkg-config python3 libboost-system-dev \libboost-python-dev libboost-filesystem-dev zlib1g-dev
+
 $ make config-gcc
 
 $ git submodule update --init --recursive
